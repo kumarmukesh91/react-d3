@@ -6,8 +6,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+.dot {
+  fill: red;
+}
 
+.dotted-line {
+  stroke: black;
+  stroke-width: 2px;
+  stroke-dasharray: 5 5;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.line-chart {
 }
